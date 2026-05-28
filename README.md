@@ -11,6 +11,7 @@
 
 <p align="center">
   <a href="#quick-start">Quick start</a> ·
+  <a href="#demo">Demo</a> ·
   <a href="#overview">Overview</a> ·
   <a href="#test-case-screenshots-web-ui">Test cases</a> ·
   <a href="#rag-query-screenshots-web-ui">RAG queries</a> ·
@@ -65,6 +66,12 @@ cp .env.example .env
 Open **http://127.0.0.1:8080/** — chat, live console, document manager, **Test Cases** (A–H), and **RAG Queries**.
 
 **First-time RAG setup:** load papers with `uv run python scripts/download_research_papers.py --from-disk`, then **Documents → Index all (50 papers)** (or `uv run python scripts/index_research_corpus.py`).
+
+## Demo
+
+[![Cognitive RAG Agent walkthrough](https://img.youtube.com/vi/rGVKVTlnZHs/0.jpg)](https://youtu.be/rGVKVTlnZHs)
+
+**[Watch on YouTube →](https://youtu.be/rGVKVTlnZHs)**
 
 ## Overview
 
