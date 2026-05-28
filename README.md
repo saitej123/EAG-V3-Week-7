@@ -79,6 +79,25 @@ A **document RAG desktop app** with FastAPI Web UI, document manager, and durabl
 | **Document manager** | Upload, per-doc index/reindex/delete, bulk index research corpus |
 | **Resilient indexing** | VLM pages in batches of 10 with retry/backoff; markdown sidecar fast-path for PDFs |
 
+### Indexing & retrieval
+
+| Setting | Default |
+|---------|---------|
+| **Embedding model** | [`gemini-embedding-2`](https://ai.google.dev/gemini-api/docs/embeddings) (`GEMINI_EMBED_MODEL`; optional `GEMINI_EMBED_OUTPUT_DIM`: 768 / 1536 / 3072) |
+| **Chunk size** | **400** characters, **80** overlap (sliding window) |
+| **VLM long pages** | Sub-chunk at **1200** characters (`VLM_PAGE_CHUNK_SIZE`) |
+| **Vector store** | FAISS + `state/memory.json` |
+
+**How indexing works**
+
+1. **Pick a file** under `sandbox/` (upload, research paper, or sidecar).
+2. **Extract text** — `.md` / `.txt` read as UTF-8; PDFs with a matching `.md` sidecar use the sidecar (no VLM); other PDFs/images go through VLM page extraction (10 pages per batch).
+3. **Chunk** — sliding window (400 / 80); each chunk becomes a memory fact with path + chunk metadata.
+4. **Embed** — `gemini-embedding-2` vectors written to FAISS (`state/index.faiss`).
+5. **Retrieve** — agent calls `search_knowledge`; `memory.read()` does dense search first, keyword fallback if vectors are unavailable.
+
+Re-index after changing the embed model (`scripts/clean.py`, then bulk-index again).
+
 Load the research corpus with `uv run python scripts/download_research_papers.py --from-disk`, then index via **Documents → Index all (50 papers)** in the UI or `scripts/index_research_corpus.py`.
 
 **Tech:** Python 3.12 · FastAPI · FAISS · Gemini (LLM + embeddings) · MCP stdio · Tavily / crawl4ai / DuckDuckGo fallbacks
