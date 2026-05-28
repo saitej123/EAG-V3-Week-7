@@ -19,7 +19,7 @@ sandbox_home/
 # Exclude environment variables
 .env
 .env.*
-
+logs/
 # Python caches and virtual environments
 __pycache__/
 *.py[cod]
