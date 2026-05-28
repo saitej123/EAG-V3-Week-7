@@ -1,0 +1,509 @@
+{
+  "name": "Research Paper RAG Corpus",
+  "description": "Fifty recent arXiv PDFs (cs.LG / cs.CL / cs.AI) with markdown sidecars under sandbox/research_papers/",
+  "item_count": 50,
+  "index_tool": "index_directory('research_papers')",
+  "retrieve_tool": "search_knowledge",
+  "items": [
+    {
+      "id": "2605.20025",
+      "arxiv_id": "2605.20025",
+      "path": "sandbox/research_papers/2605.20025.md",
+      "sandbox_path": "research_papers/2605.20025.md",
+      "pdf_path": "sandbox/research_papers/2605.20025.pdf",
+      "pdf_sandbox_path": "research_papers/2605.20025.pdf",
+      "title": "AutoResearchClaw: Self-Reinforcing Autonomous Research with Human-AI Collaboration",
+      "word_count": 220
+    },
+    {
+      "id": "2605.23904",
+      "arxiv_id": "2605.23904",
+      "path": "sandbox/research_papers/2605.23904.md",
+      "sandbox_path": "research_papers/2605.23904.md",
+      "pdf_path": "sandbox/research_papers/2605.23904.pdf",
+      "pdf_sandbox_path": "research_papers/2605.23904.pdf",
+      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+      "word_count": 266
+    },
+    {
+      "id": "2605.25985",
+      "arxiv_id": "2605.25985",
+      "path": "sandbox/research_papers/2605.25985.md",
+      "sandbox_path": "research_papers/2605.25985.md",
+      "pdf_path": "sandbox/research_papers/2605.25985.pdf",
+      "pdf_sandbox_path": "research_papers/2605.25985.pdf",
+      "title": "Neural Scalable Symbolic Search Framework for Complex Logical Queries with Multiple Free Variables",
+      "word_count": 230
+    },
+    {
+      "id": "2605.25988",
+      "arxiv_id": "2605.25988",
+      "path": "sandbox/research_papers/2605.25988.md",
+      "sandbox_path": "research_papers/2605.25988.md",
+      "pdf_path": "sandbox/research_papers/2605.25988.pdf",
+      "pdf_sandbox_path": "research_papers/2605.25988.pdf",
+      "title": "What Makes a Medical Checker Trainable? Diagnosing Signal Collapse and Reward Hacking in Checker-Guided RAG for Biomedical QA",
+      "word_count": 214
+    },
+    {
+      "id": "2605.25991",
+      "arxiv_id": "2605.25991",
+      "path": "sandbox/research_papers/2605.25991.md",
+      "sandbox_path": "research_papers/2605.25991.md",
+      "pdf_path": "sandbox/research_papers/2605.25991.pdf",
+      "pdf_sandbox_path": "research_papers/2605.25991.pdf",
+      "title": "Fuzzy PyTorch: Rapid Numerical Variability Evaluation for Deep Learning Models",
+      "word_count": 199
+    },
+    {
+      "id": "2605.25997",
+      "arxiv_id": "2605.25997",
+      "path": "sandbox/research_papers/2605.25997.md",
+      "sandbox_path": "research_papers/2605.25997.md",
+      "pdf_path": "sandbox/research_papers/2605.25997.pdf",
+      "pdf_sandbox_path": "research_papers/2605.25997.pdf",
+      "title": "Deployment-complete benchmarking",
+      "word_count": 186
+    },
+    {
+      "id": "2605.25998",
+      "arxiv_id": "2605.25998",
+      "path": "sandbox/research_papers/2605.25998.md",
+      "sandbox_path": "research_papers/2605.25998.md",
+      "pdf_path": "sandbox/research_papers/2605.25998.pdf",
+      "pdf_sandbox_path": "research_papers/2605.25998.pdf",
+      "title": "Causal methods for LLM development and evaluation",
+      "word_count": 264
+    },
+    {
+      "id": "2605.26000",
+      "arxiv_id": "2605.26000",
+      "path": "sandbox/research_papers/2605.26000.md",
+      "sandbox_path": "research_papers/2605.26000.md",
+      "pdf_path": "sandbox/research_papers/2605.26000.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26000.pdf",
+      "title": "Statistical Inference for Stochastic Gradient Descent Beyond Finite Variance",
+      "word_count": 199
+    },
+    {
+      "id": "2605.26001",
+      "arxiv_id": "2605.26001",
+      "path": "sandbox/research_papers/2605.26001.md",
+      "sandbox_path": "research_papers/2605.26001.md",
+      "pdf_path": "sandbox/research_papers/2605.26001.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26001.pdf",
+      "title": "AI-Assisted Systematization for Evaluating GenAI Systems",
+      "word_count": 201
+    },
+    {
+      "id": "2605.26004",
+      "arxiv_id": "2605.26004",
+      "path": "sandbox/research_papers/2605.26004.md",
+      "sandbox_path": "research_papers/2605.26004.md",
+      "pdf_path": "sandbox/research_papers/2605.26004.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26004.pdf",
+      "title": "MAGIC: Multimodal Alignment & Grounding-aware Instruction Coreset for Vision-Language Models",
+      "word_count": 250
+    },
+    {
+      "id": "2605.26007",
+      "arxiv_id": "2605.26007",
+      "path": "sandbox/research_papers/2605.26007.md",
+      "sandbox_path": "research_papers/2605.26007.md",
+      "pdf_path": "sandbox/research_papers/2605.26007.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26007.pdf",
+      "title": "Forgotten Words: Benchmarking NeoBERT for Dementia Detection in Low-Resource Conversational Filipino and English Speech",
+      "word_count": 226
+    },
+    {
+      "id": "2605.26012",
+      "arxiv_id": "2605.26012",
+      "path": "sandbox/research_papers/2605.26012.md",
+      "sandbox_path": "research_papers/2605.26012.md",
+      "pdf_path": "sandbox/research_papers/2605.26012.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26012.pdf",
+      "title": "Learning in Low-Dimensional Subspaces: Orthogonal Bottlenecks for Reinforcement Learning",
+      "word_count": 228
+    },
+    {
+      "id": "2605.26013",
+      "arxiv_id": "2605.26013",
+      "path": "sandbox/research_papers/2605.26013.md",
+      "sandbox_path": "research_papers/2605.26013.md",
+      "pdf_path": "sandbox/research_papers/2605.26013.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26013.pdf",
+      "title": "AdvantageFlow: Advantage-Weighted Least Squares for RL in Flow Models",
+      "word_count": 117
+    },
+    {
+      "id": "2605.26014",
+      "arxiv_id": "2605.26014",
+      "path": "sandbox/research_papers/2605.26014.md",
+      "sandbox_path": "research_papers/2605.26014.md",
+      "pdf_path": "sandbox/research_papers/2605.26014.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26014.pdf",
+      "title": "STORM: Internalized Modeling for Spatial-Temporal Reasoning in Video-Language Models",
+      "word_count": 239
+    },
+    {
+      "id": "2605.26019",
+      "arxiv_id": "2605.26019",
+      "path": "sandbox/research_papers/2605.26019.md",
+      "sandbox_path": "research_papers/2605.26019.md",
+      "pdf_path": "sandbox/research_papers/2605.26019.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26019.pdf",
+      "title": "Retrieval-Augmented Detection of Potentially Abusive Clauses in Chilean Terms of Service",
+      "word_count": 207
+    },
+    {
+      "id": "2605.26026",
+      "arxiv_id": "2605.26026",
+      "path": "sandbox/research_papers/2605.26026.md",
+      "sandbox_path": "research_papers/2605.26026.md",
+      "pdf_path": "sandbox/research_papers/2605.26026.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26026.pdf",
+      "title": "A Multimodal 3D Foundation Model for Light Sheet Fluorescence Microscopy Enables Few-Shot Segmentation, Classification, and Deblurring",
+      "word_count": 241
+    },
+    {
+      "id": "2605.26029",
+      "arxiv_id": "2605.26029",
+      "path": "sandbox/research_papers/2605.26029.md",
+      "sandbox_path": "research_papers/2605.26029.md",
+      "pdf_path": "sandbox/research_papers/2605.26029.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26029.pdf",
+      "title": "CausaLab: A Scalable Environment for Interactive Causal Discovery Toward AI Scientists",
+      "word_count": 296
+    },
+    {
+      "id": "2605.26032",
+      "arxiv_id": "2605.26032",
+      "path": "sandbox/research_papers/2605.26032.md",
+      "sandbox_path": "research_papers/2605.26032.md",
+      "pdf_path": "sandbox/research_papers/2605.26032.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26032.pdf",
+      "title": "Everything at Every Scale: Scale-Invariant Diffusion with Continuous Super-Resolution",
+      "word_count": 201
+    },
+    {
+      "id": "2605.26035",
+      "arxiv_id": "2605.26035",
+      "path": "sandbox/research_papers/2605.26035.md",
+      "sandbox_path": "research_papers/2605.26035.md",
+      "pdf_path": "sandbox/research_papers/2605.26035.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26035.pdf",
+      "title": "Length Generalization with Log-Depth Recurrent Units",
+      "word_count": 152
+    },
+    {
+      "id": "2605.26036",
+      "arxiv_id": "2605.26036",
+      "path": "sandbox/research_papers/2605.26036.md",
+      "sandbox_path": "research_papers/2605.26036.md",
+      "pdf_path": "sandbox/research_papers/2605.26036.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26036.pdf",
+      "title": "CITYREP: A Unified Benchmark for Urban Representations Across Cities, Tasks, and Modalities",
+      "word_count": 249
+    },
+    {
+      "id": "2605.26037",
+      "arxiv_id": "2605.26037",
+      "path": "sandbox/research_papers/2605.26037.md",
+      "sandbox_path": "research_papers/2605.26037.md",
+      "pdf_path": "sandbox/research_papers/2605.26037.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26037.pdf",
+      "title": "Peak-Then-Collapse and the Four Interface Channels of Knowledge-Graph Tool Use",
+      "word_count": 237
+    },
+    {
+      "id": "2605.26038",
+      "arxiv_id": "2605.26038",
+      "path": "sandbox/research_papers/2605.26038.md",
+      "sandbox_path": "research_papers/2605.26038.md",
+      "pdf_path": "sandbox/research_papers/2605.26038.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26038.pdf",
+      "title": "DRScaffold: Boosting Dense-Scene Reasoning in Lightweight Vision Language Models",
+      "word_count": 211
+    },
+    {
+      "id": "2605.26040",
+      "arxiv_id": "2605.26040",
+      "path": "sandbox/research_papers/2605.26040.md",
+      "sandbox_path": "research_papers/2605.26040.md",
+      "pdf_path": "sandbox/research_papers/2605.26040.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26040.pdf",
+      "title": "L2IR: Revealing Latent Intent in Graph Fraud Detection",
+      "word_count": 225
+    },
+    {
+      "id": "2605.26045",
+      "arxiv_id": "2605.26045",
+      "path": "sandbox/research_papers/2605.26045.md",
+      "sandbox_path": "research_papers/2605.26045.md",
+      "pdf_path": "sandbox/research_papers/2605.26045.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26045.pdf",
+      "title": "Confidence and Calibration of Activation Oracles for Reliable Interpretation of Language Model Internals",
+      "word_count": 156
+    },
+    {
+      "id": "2605.26046",
+      "arxiv_id": "2605.26046",
+      "path": "sandbox/research_papers/2605.26046.md",
+      "sandbox_path": "research_papers/2605.26046.md",
+      "pdf_path": "sandbox/research_papers/2605.26046.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26046.pdf",
+      "title": "When Gradients Collide: Failure Modes of Multi-Objective Prompt Optimization for LLM Judges",
+      "word_count": 180
+    },
+    {
+      "id": "2605.26047",
+      "arxiv_id": "2605.26047",
+      "path": "sandbox/research_papers/2605.26047.md",
+      "sandbox_path": "research_papers/2605.26047.md",
+      "pdf_path": "sandbox/research_papers/2605.26047.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26047.pdf",
+      "title": "Retrying vs Resampling in AI Control",
+      "word_count": 251
+    },
+    {
+      "id": "2605.26059",
+      "arxiv_id": "2605.26059",
+      "path": "sandbox/research_papers/2605.26059.md",
+      "sandbox_path": "research_papers/2605.26059.md",
+      "pdf_path": "sandbox/research_papers/2605.26059.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26059.pdf",
+      "title": "Accelerating Bayesian inverse design in computational fluid dynamics using neural operators",
+      "word_count": 267
+    },
+    {
+      "id": "2605.26061",
+      "arxiv_id": "2605.26061",
+      "path": "sandbox/research_papers/2605.26061.md",
+      "sandbox_path": "research_papers/2605.26061.md",
+      "pdf_path": "sandbox/research_papers/2605.26061.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26061.pdf",
+      "title": "Neuronal Stochastic Attention Circuit (NSAC) for Probabilistic Representation Learning",
+      "word_count": 191
+    },
+    {
+      "id": "2605.26064",
+      "arxiv_id": "2605.26064",
+      "path": "sandbox/research_papers/2605.26064.md",
+      "sandbox_path": "research_papers/2605.26064.md",
+      "pdf_path": "sandbox/research_papers/2605.26064.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26064.pdf",
+      "title": "Paris 2.0: A Decentralized Diffusion Model for Video Generation",
+      "word_count": 129
+    },
+    {
+      "id": "2605.26067",
+      "arxiv_id": "2605.26067",
+      "path": "sandbox/research_papers/2605.26067.md",
+      "sandbox_path": "research_papers/2605.26067.md",
+      "pdf_path": "sandbox/research_papers/2605.26067.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26067.pdf",
+      "title": "Conditional KRR: Injecting Unpenalized Features into Kernel Methods with Applications to Kernel Thresholding",
+      "word_count": 306
+    },
+    {
+      "id": "2605.26068",
+      "arxiv_id": "2605.26068",
+      "path": "sandbox/research_papers/2605.26068.md",
+      "sandbox_path": "research_papers/2605.26068.md",
+      "pdf_path": "sandbox/research_papers/2605.26068.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26068.pdf",
+      "title": "Rethinking Weak Supervision in Anomaly Detection: A Comprehensive Benchmark",
+      "word_count": 226
+    },
+    {
+      "id": "2605.26070",
+      "arxiv_id": "2605.26070",
+      "path": "sandbox/research_papers/2605.26070.md",
+      "sandbox_path": "research_papers/2605.26070.md",
+      "pdf_path": "sandbox/research_papers/2605.26070.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26070.pdf",
+      "title": "WhoSaidIt: Human-LLM Collaborative Annotation for Text-Based Multilingual Speaker-Attribute Classification",
+      "word_count": 151
+    },
+    {
+      "id": "2605.26072",
+      "arxiv_id": "2605.26072",
+      "path": "sandbox/research_papers/2605.26072.md",
+      "sandbox_path": "research_papers/2605.26072.md",
+      "pdf_path": "sandbox/research_papers/2605.26072.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26072.pdf",
+      "title": "Active Query Synthesis for Preference Learning",
+      "word_count": 187
+    },
+    {
+      "id": "2605.26074",
+      "arxiv_id": "2605.26074",
+      "path": "sandbox/research_papers/2605.26074.md",
+      "sandbox_path": "research_papers/2605.26074.md",
+      "pdf_path": "sandbox/research_papers/2605.26074.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26074.pdf",
+      "title": "StakeBench: Evaluating Language Understanding Grounded in Market Commitment",
+      "word_count": 249
+    },
+    {
+      "id": "2605.26078",
+      "arxiv_id": "2605.26078",
+      "path": "sandbox/research_papers/2605.26078.md",
+      "sandbox_path": "research_papers/2605.26078.md",
+      "pdf_path": "sandbox/research_papers/2605.26078.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26078.pdf",
+      "title": "Global Convergence of Wasserstein Policy Gradient for Entropy-Regularized Reinforcement Learning",
+      "word_count": 277
+    },
+    {
+      "id": "2605.26079",
+      "arxiv_id": "2605.26079",
+      "path": "sandbox/research_papers/2605.26079.md",
+      "sandbox_path": "research_papers/2605.26079.md",
+      "pdf_path": "sandbox/research_papers/2605.26079.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26079.pdf",
+      "title": "Automated Benchmark Auditing for AI Agents and Large Language Models",
+      "word_count": 217
+    },
+    {
+      "id": "2605.26081",
+      "arxiv_id": "2605.26081",
+      "path": "sandbox/research_papers/2605.26081.md",
+      "sandbox_path": "research_papers/2605.26081.md",
+      "pdf_path": "sandbox/research_papers/2605.26081.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26081.pdf",
+      "title": "VeriTrace: Evolving Mental Models for Deep Research Agents",
+      "word_count": 172
+    },
+    {
+      "id": "2605.26086",
+      "arxiv_id": "2605.26086",
+      "path": "sandbox/research_papers/2605.26086.md",
+      "sandbox_path": "research_papers/2605.26086.md",
+      "pdf_path": "sandbox/research_papers/2605.26086.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26086.pdf",
+      "title": "Claw-Anything: Benchmarking Always-On Personal Assistants with Broader Access to User's Digital World",
+      "word_count": 244
+    },
+    {
+      "id": "2605.26087",
+      "arxiv_id": "2605.26087",
+      "path": "sandbox/research_papers/2605.26087.md",
+      "sandbox_path": "research_papers/2605.26087.md",
+      "pdf_path": "sandbox/research_papers/2605.26087.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26087.pdf",
+      "title": "DiscoverPhysics: Benchmarking LLMs for Out-of-the-Box Scientific Thinking",
+      "word_count": 276
+    },
+    {
+      "id": "2605.26089",
+      "arxiv_id": "2605.26089",
+      "path": "sandbox/research_papers/2605.26089.md",
+      "sandbox_path": "research_papers/2605.26089.md",
+      "pdf_path": "sandbox/research_papers/2605.26089.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26089.pdf",
+      "title": "Channel-wise Vector Quantization",
+      "word_count": 192
+    },
+    {
+      "id": "2605.26092",
+      "arxiv_id": "2605.26092",
+      "path": "sandbox/research_papers/2605.26092.md",
+      "sandbox_path": "research_papers/2605.26092.md",
+      "pdf_path": "sandbox/research_papers/2605.26092.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26092.pdf",
+      "title": "OrpQuant: Geometric Orthogonal Residual Projection for Multiplier-Free Power-of-Two Transformer Quantization",
+      "word_count": 236
+    },
+    {
+      "id": "2605.26093",
+      "arxiv_id": "2605.26093",
+      "path": "sandbox/research_papers/2605.26093.md",
+      "sandbox_path": "research_papers/2605.26093.md",
+      "pdf_path": "sandbox/research_papers/2605.26093.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26093.pdf",
+      "title": "Goal-driven Bayesian Optimal Experimental Design for Robust Decision-Making Under Model Uncertainty",
+      "word_count": 177
+    },
+    {
+      "id": "2605.26097",
+      "arxiv_id": "2605.26097",
+      "path": "sandbox/research_papers/2605.26097.md",
+      "sandbox_path": "research_papers/2605.26097.md",
+      "pdf_path": "sandbox/research_papers/2605.26097.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26097.pdf",
+      "title": "Forgetting in Language Models: Capacity, Optimization, and Self-Generated Replay",
+      "word_count": 144
+    },
+    {
+      "id": "2605.26099",
+      "arxiv_id": "2605.26099",
+      "path": "sandbox/research_papers/2605.26099.md",
+      "sandbox_path": "research_papers/2605.26099.md",
+      "pdf_path": "sandbox/research_papers/2605.26099.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26099.pdf",
+      "title": "Language Models Need Sleep",
+      "word_count": 170
+    },
+    {
+      "id": "2605.26100",
+      "arxiv_id": "2605.26100",
+      "path": "sandbox/research_papers/2605.26100.md",
+      "sandbox_path": "research_papers/2605.26100.md",
+      "pdf_path": "sandbox/research_papers/2605.26100.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26100.pdf",
+      "title": "Beyond Summaries: Structure-Aware Labeling of Code Changes with Large Language Models",
+      "word_count": 241
+    },
+    {
+      "id": "2605.26106",
+      "arxiv_id": "2605.26106",
+      "path": "sandbox/research_papers/2605.26106.md",
+      "sandbox_path": "research_papers/2605.26106.md",
+      "pdf_path": "sandbox/research_papers/2605.26106.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26106.pdf",
+      "title": "Looped Diffusion Language Models",
+      "word_count": 235
+    },
+    {
+      "id": "2605.26110",
+      "arxiv_id": "2605.26110",
+      "path": "sandbox/research_papers/2605.26110.md",
+      "sandbox_path": "research_papers/2605.26110.md",
+      "pdf_path": "sandbox/research_papers/2605.26110.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26110.pdf",
+      "title": "Prism: A Plug-in Reproducible Infrastructure for Scalable Multimodal Continual Instruction Tuning",
+      "word_count": 179
+    },
+    {
+      "id": "2605.26111",
+      "arxiv_id": "2605.26111",
+      "path": "sandbox/research_papers/2605.26111.md",
+      "sandbox_path": "research_papers/2605.26111.md",
+      "pdf_path": "sandbox/research_papers/2605.26111.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26111.pdf",
+      "title": "Squeezing Capacity from Multimodal Large Language Models for Subject-driven Generation",
+      "word_count": 187
+    },
+    {
+      "id": "2605.26112",
+      "arxiv_id": "2605.26112",
+      "path": "sandbox/research_papers/2605.26112.md",
+      "sandbox_path": "research_papers/2605.26112.md",
+      "pdf_path": "sandbox/research_papers/2605.26112.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26112.pdf",
+      "title": "From Model Scaling to System Scaling: Scaling the Harness in Agentic AI",
+      "word_count": 269
+    },
+    {
+      "id": "2605.26114",
+      "arxiv_id": "2605.26114",
+      "path": "sandbox/research_papers/2605.26114.md",
+      "sandbox_path": "research_papers/2605.26114.md",
+      "pdf_path": "sandbox/research_papers/2605.26114.pdf",
+      "pdf_sandbox_path": "research_papers/2605.26114.pdf",
+      "title": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research",
+      "word_count": 228
+    }
+  ]
+}
