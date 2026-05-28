@@ -32,3 +32,4 @@ env/
 .ruff_cache/
 .mypy_cache/
 .python-version
+logs/eval/base_a.log

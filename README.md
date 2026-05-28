@@ -105,7 +105,17 @@ A **document RAG desktop app** with FastAPI Web UI, document manager, and durabl
 
 Re-index after changing the embed model (`scripts/clean.py`, then bulk-index again).
 
-Load the research corpus with `uv run python scripts/download_research_papers.py --from-disk`, then index via **Documents → Index all (50 papers)** in the UI or `scripts/index_research_corpus.py`.
+### Research corpus ([`corpus/MANIFEST.json`](corpus/MANIFEST.json))
+
+| Field | Value |
+|-------|--------|
+| **Name** | Research Paper RAG Corpus |
+| **Items** | **50** arXiv papers (cs.LG / cs.CL / cs.AI) — PDF + `.md` sidecar each |
+| **Location** | `sandbox/research_papers/` |
+| **Index** | `index_directory('research_papers')` (UI: **Index all (50 papers)**) |
+| **Retrieve** | `search_knowledge` |
+
+Download if needed: `uv run python scripts/download_research_papers.py --from-disk` · index: `scripts/index_research_corpus.py`
 
 **Tech:** Python 3.12 · FastAPI · FAISS · Gemini (LLM + embeddings) · MCP stdio · Tavily / crawl4ai / DuckDuckGo fallbacks
 
