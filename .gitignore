@@ -33,3 +33,4 @@ env/
 .mypy_cache/
 .python-version
 logs/eval/base_a.log
+logs/eval/base_b.log
